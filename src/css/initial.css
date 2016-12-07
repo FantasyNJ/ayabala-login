@@ -1,0 +1,28 @@
+/* 默认值 */
+html{font-size: 62.5%;color: #222;}
+body{font-family: brandon, "PingFang SC", "Microsoft YaHei", 微软雅黑, STXihei, 华文细黑, sans-serif;}
+/*body{font-family:  'Open Sans','open_sans','PingFang SC',"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",sans-serif;}*/
+ul{margin: 0;padding: 0;}
+li{list-style: none;}
+dd{margin: 0;}
+::selection{background-color: #0099e5;color: #fff;}
+a{text-decoration: none;}
+
+/* 工具样式 */
+.center-block{display: block;margin-left: auto;margin-right: auto;}
+.clearfix:before, .clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+.text-hide{font: 0/0 a;color: transparent;text-shadow: none;background-color: transparent;border: 0;}
+.ellipsis{text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.fl{float: left;}
+.fr{float: right;}
+
+/* 内容公共样式 */
+h1{
+    font-family: Pattaya;
+    font-size: 6rem;
+    color: #fff;
+    margin-top: 10rem;
+    cursor: default;
+    text-align: center;
+}

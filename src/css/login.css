@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: #5a4776;
+    background-image: url("../img/login-shade.png");
+    background-size: 100% 100%;
+}
+h1{
+    margin-top: 0;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+}
+h1 a{
+    color: #fff;
+}
+.wrap{
+    width: 256px;
+    margin: 0 auto;
+}
+
+.login-wrap, .register-wrap{
+    display: none;
+    opacity: 0;
+    transform: translateY(5px);
+    transition: transform .5s ease-in , opacity .5s ease-in;
+}
+
+input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 46px;
+    border: none;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25) inset;
+    color: #4b5056;
+    padding: 12px 10px;
+    font-size: 17px;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+button{
+    display: block;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    background-color: #96bd13;
+    border-width: 1px;
+    border-color: rgb(147, 183, 25);
+    border-top-color: rgba(255,255,255,0.4);
+    height: 46px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 4px;
+    transition: .15s;
+    opacity: .9;
+    text-align: center;
+    letter-spacing: 5px;
+}
+button:hover{
+    opacity: 1;
+}
+
+.to-a{
+    text-align: right;
+}
+.to-a a{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.to-a a:hover{
+    text-decoration: underline;
+}
